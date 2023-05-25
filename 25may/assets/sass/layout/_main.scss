@@ -1,0 +1,231 @@
+.myContainer1{
+    width: 100%;
+    .featured{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 60px;
+        .lineTwo{
+            width: 3px;
+            height: 25px;
+            background-color:#fd784f;
+            margin-bottom: 10px;
+           }
+        .properties{
+            color: #0e1d41;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        .see{
+            color: #94938d;
+            font-size: 24px;
+        }
+
+        .featuredCards{
+            display: flex;
+            margin-top: 60px;
+           gap: 30px;
+
+           
+
+
+
+            .card1{
+                width: 300px;
+                height: 650px;
+                background-image: url("https://preview.colorlib.com/theme/theestate/images/featured_1.jpg");
+                background-position: top;
+                background-repeat: no-repeat;
+             background-size: contain;
+             display: flex;
+             flex-direction: column;
+             border: 1px solid black;
+             position: relative;
+             background-color: #edeff4;
+
+             .cardBluebox{
+                width: 300px;
+                height: 80px;
+                background-color:#0e1d41 ;
+                position: absolute;
+                top: 660px;
+                display: flex;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .sale{
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                }
+             }
+
+             .house{
+                color: #0e1d41;
+                font-weight: 500;
+                font-size: 24px;
+             }
+             .donec{
+                color: #94938d;
+             }
+
+             .featDiv{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 20px;
+                color: white;
+                background-color: #fd784f;
+                margin-top: 10px;
+
+             }
+
+             .card1Write{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 250px;
+                gap: 10px;
+                margin-left: 10px;
+
+                .hotDiv{
+                    width: 60px;
+                    height: 20px;
+                    color: white;
+                    background-color: #fd784f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .swimDiv{
+
+                    width: 140px;
+                    height: 20px;
+                    color: white;
+                    background-color: #fd784f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+               
+             }
+
+             .bedrooms{
+                display: flex;
+                gap: 15px;
+               
+                
+             }
+             .patio{
+                display: flex;
+                gap: 20px;
+               
+
+             }
+             .iconFlx{
+                display: flex;
+                flex-direction: column;
+             }
+             .hottup{
+                display: flex;
+                gap: 10px;
+
+             }
+             .hardWood{
+                display: flex;
+                gap: 10px;
+
+             }
+            }
+        }
+    }
+}
+
+
+.myContainer2{
+    width: 100%;
+
+    .carusel{
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        .caruselWrite{
+            position: absolute;
+            top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            left: 50%;
+            transform: translate(-50%);
+            
+            .smith{
+                color: #fd784f;
+                font-size: 16px;
+            }
+            .calif{
+                font-size: 16px;
+                font-weight: 500;
+                color: white;
+                padding-bottom: 150px !important;
+            }
+        }
+        .client{
+            color: white;
+            font-size: 32px;
+            font-weight: 600;
+        }
+        .see{
+            color: #94938d;
+            font-size: 24px;
+        }
+        .lorem{
+            color: white;
+            
+        }
+    }
+
+}
+
+.myContainer3{
+    width: 100%;
+    .cardslide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .propertiesBox{
+            display: flex;
+            justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 60px;
+        }
+
+        .lineTwo{
+            width: 3px;
+            height: 25px;
+            background-color:#fd784f;
+            margin-bottom: 10px;
+           }
+        .properties{
+            color: #0e1d41;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        .see{
+            color: #94938d;
+            font-size: 24px;
+        }
+    }
+}
+
+
