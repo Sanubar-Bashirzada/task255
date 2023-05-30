@@ -128,7 +128,7 @@ header .findYour {
 .myContainer1 .featured .featuredCards .card1 .donec {
   color: #94938d;
 }
-.myContainer1 .featured .featuredCards .card1 .featDiv {
+.myContainer1 .featured .featuredCards .card1 .featDiv1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,4 +259,85 @@ header .findYour {
 .myContainer3 .cardslide .see {
   color: #94938d;
   font-size: 24px;
+}
+
+.house {
+  color: #0e1d41;
+  font-weight: 500;
+  font-size: 24px;
+  position: absolute;
+  top: 260px;
+}
+
+.featDiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 20px;
+  color: white;
+  background-color: #fd784f;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.donec {
+  color: #94938d;
+  position: absolute;
+  top: 300px;
+}
+
+.hotDiv {
+  width: 60px;
+  height: 20px;
+  color: white;
+  background-color: #fd784f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swimDiv {
+  width: 140px;
+  height: 20px;
+  color: white;
+  background-color: #fd784f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bedrooms {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 350px;
+}
+
+.patio {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 380px;
+}
+
+.hottup {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 450px;
+}
+
+.hardWood {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 480px;
+}
+
+.imgjs {
+  position: absolute;
+  top: 0;
+  width: 298px;
+  height: 200px;
 }/*# sourceMappingURL=main.css.map */
